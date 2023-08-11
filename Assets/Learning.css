@@ -288,7 +288,7 @@ body {
     }
 
     .Container_Objeto:hover {
-        scale: 1.06;
+        scale: none;
     }
 }
 

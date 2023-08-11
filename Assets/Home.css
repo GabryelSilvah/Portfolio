@@ -232,7 +232,10 @@ body {
 
 .container_obejeto {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .TituloCentralizado {
@@ -261,6 +264,11 @@ body {
     margin: 0px 20px;
     color: rgb(176, 178, 181);
     text-align: center;
+}
+.gif{
+    height: 80px;
+    border-radius: 10px;
+    
 }
 
 .container_obejeto .TituloCentralizado {

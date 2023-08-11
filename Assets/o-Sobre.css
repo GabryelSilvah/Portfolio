@@ -8,14 +8,8 @@
 
 body {
     background-image: -webkit-linear-gradient(right, rgba(251, 255, 254, 0.59), rgb(251, 255, 254, 0.59));
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
-main {
-    flex: 1 1 0;
-}
 
 
 /*Inicio do Menu*/
@@ -176,6 +170,87 @@ main {
     text-align: justify;
 }
 
+/*linha do tempo de formação academica*/
+.container_competencias {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.titulo_section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.titulo_section h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #03499f;
+    border: 4px solid rgb(0, 149, 255);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 40px;
+
+}
+
+.container_linha_do_tempo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.container_formacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_icone {
+    background-image: -webkit-linear-gradient(120deg, #167bf7, #03499f);
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    box-shadow: 4px 8px 20px rgb(112, 112, 112);
+    border: 4px solid rgb(211, 211, 211);
+}
+
+.container_img {
+    height: 140px;
+    width: 100%;
+}
+
+.img_icone {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container_paragrafo {
+    display: flex;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.container_paragrafo p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-align: start;
+    word-break: keep-all;
+}
 
 /*Footer*/
 .Titulo_OneZero {
@@ -240,6 +315,47 @@ main {
 
     .ImagemInicial {
         margin-top: 20px;
+    }
+}
+/*Experiencia profissionais e formação*/
+@media screen and (max-width:726px) {
+    .container_linha_do_tempo {
+        gap: 20px;
+
+    }
+
+    .container_icone {
+        height: 310px;
+        width: 160px;
+        margin: 0px 5px;
+    }
+
+    .container_img {
+        height: 100px;
+        width: 100%;
+    }
+
+    .img_icone {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .container_paragrafo {
+        width: 200px;
+        padding: 0.6rem;
+        width: 100%;
+    }
+
+    .container_paragrafo p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffffff;
+        font-size: 0.5rem;
+        text-align: start;
+
+
     }
 }
 
