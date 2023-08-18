@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="Html.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+</head>
+
+<body>
+
+    <!--MENU-->
+    <header>
+        <nav class="container_nav">
+            <div class="container_menu">
+                <div class="container_logo">
+                    <a href="../Home.html"><img id="logo" src="../imagem/Logo_one_zero2.png" alt=""></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="../Home.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Conquistas.html">
+                            Conquistas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Sobre.html">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="aba_atual">
+                        <a href="../Learning.html">
+                            Learning
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--nav menu mobile-->
+        <nav id="mobile">
+            <div id="btn">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="menu">
+                <li>
+                    <a href="../Home.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="../Conquistas.html">
+                        Conquistas
+                    </a>
+                </li>
+                <li>
+                    <a href="../Sobre.html">
+                        Sobre
+                    </a>
+                </li>
+                <li class="aba_atual">
+                    <a href="../Learning.html">
+                        Learning
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="container_conteudo">
+            <section class="conteudo">
+
+                <h1 class="Titulo_Central">
+                    Html
+                </h1>
+                <h4 class="Data_Atualizaçao">
+                    Atualizado: 19/07/2023
+                </h4>
+                <p class="Paragrafo_Central">
+                    Html é uma linguagem de marcação que usa tags para dar
+                    significado para cada elemento adicionado no código. Em um código html, podemos
+                    adicionar elementos como, texto, links, imagens, vídeos, gifs e arquivos como
+                    pdf. Para cada um desses elementos existe uma tag especifica. Por exemplo,
+                    para inserir um título na página podemos utilizar a tag &lth1&gt. Cada tag
+                    existe uma abertura e um fechamento. Fazendo uma analogia, sempre que vamos
+                    escrever um texto começamos com uma margem no início do parágrafo dando espaço, para encerrar o
+                    texto
+                    colocamos um ponto final. Em html, funciona de maneira
+                    parecida. Para começar uma tag de título escrevemos assim &lth1&gt, e para
+                    encerrar basta escrever o mesmo, porém com uma barra cortando a tag, &lt /h1&gt.
+                </p>
+
+                <div>
+                    <img class="img_central" src="imagens_learning/html.png" alt="">
+                </div>
+
+                <p class="Paragrafo_Central">
+                    Entretanto, existem tags que não precisam de fechamento.
+                    Esse é o caso da tag de imagem. Para adicionar uma imagem, basta digitar
+                    &lt img src=” ” &gt e no meio das aspas duplas você digita o nome da imagem e o
+                    tipo dela. Vale lembrar que você precisa ter guardado essa imagem dentro da
+                    mesma pasta onde os arquivos do html estar. Caso contrário você não encontrará
+                    essa imagem.
+                </p>
+                <div>
+                    <img class="img_central" src="imagens_learning/html_img.png" alt="">
+                </div>
+
+                <p class="Paragrafo_Central">
+                    O html precisa de uma estrutura básica para funcionar. Essa
+                    estrutura terá que ser criada toda vez que você criar um novo arquivo html do
+                    zero. Felizmente alguns editores de código que
+                    usamos nos ajudam com atalhos para não precisarmos ficar escrevendo toda essa
+                    estrutura no início. Se você estiver utilizando o Visual Studio Code, basta
+                    digitar o ponto de exclamação (!) e dar enter que a mágica já acontece.
+
+                    Todos os elementos que for adicionado no Html, deve ser
+                    adicionado entre a tag de abertura e fechamento do body.
+                </p>
+
+                <div>
+                    <img class="img_central" src="imagens_learning/html_doctype.png" alt="">
+                </div>
+            </section>
+
+            <section class="conteudo">
+                <p class="Paragrafo_Central">
+                    Tags e suas utilidades:<br><br>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &lth1&gt <p class="texto_exemplo">Digite aqui seu título</p> &lt/h1&gt<br>
+                    </div>
+                    <p class="tag">
+                        Define onde será o começo e o fim de um título. A tag h vai do h1 até o h6. Cada número
+                        representa
+                        uma
+                        hierarquia, sendo que o h1 é o de maior hierarquia.<br><br>
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltp&gt <p class="texto_exemplo">Digite aqui seu parágrafo</p> &lt/p&gt<br>
+                    </div>
+                    <p class="tag">
+                        Define onde será o começo e o fim de um parágrafo.
+                    </p>
+                </div>
+
+
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &lta href=” <p class="link_exemplo">YouTube.com</p>”&gt <p class="texto_exemplo">Click aqui!</p>
+                        &lt/a&gt<br>
+                    </div>
+                    <p class="tag">
+                        Define onde será o começo e o fim de um de link. O link para onde você ser redirecionado deve
+                        ser
+                        escrito
+                        dentro do href “ ”. Você também pode criar outro arquivo html na mesma pasta e colocar o nome
+                        desse
+                        arquivo nessa tag, assim, quando você clicar no link você será redirecionado para outra aba
+                        html,
+                        outra
+                        página. No meio dessa tag você pode colocar uma imagem ou texto. O resultado vai ser, quando
+                        você clicar na imagem ou no texto
+                        você será redirecionado para o link.<br><br>
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltimg src = “<p class="texto_exemplo">exemplo.png</p> ”&gt<br>
+                    </div>
+                    <p class="tag">
+                        Define onde será o começo sem fechamento para adicionar imagens. Basta digitar o nome da imagem
+                        dentro
+                        de src = “ ”. Lembrando que a imagem deve está na mesma pasta.<br><br>
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <h4 class="titulo_tag">
+                        &ltbr&gt<br>
+                    </h4>
+                    <p class="tag">
+                        Usada para quebra de linha, ou seja, na prática é como apertar o Enter do teclado para pular
+                        para a
+                        linha de baixo.<br><br>
+                    </p>
+                </div>
+
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltvideo src = “ <p class="link_exemplo">exemplo.mp4</p>" &nbsp &nbsp <p>controls</p> &gt
+                        &lt/video&gt<br>
+                    </div>
+                    <p class="tag">
+                        Utilizada para adicionar vídeo na página. Formatos suportados (mp4, webM e ogg).<br><br>
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltaudio src = “ <p class="link_exemplo">exemplo.mp3</p>”&gt &lt/audio&gt<br>
+                    </div>
+                    <p class="tag">
+                        Utilizada para adicionar áudio na página. Formatos suportados (mp3e ogg).<br><br>
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <h4 class="titulo_tag">
+                        &ltol&gt &lt/ol&gt<br>
+                    </h4>
+                    <p class="tag">
+                        Usada para criar lista ordenada, ou seja, a lista vai inúmera cada elemento dentro dela um após
+                        o
+                        outro,
+                        Ex(1,2,3,4,5,6....)<br><br>
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <h4 class="titulo_tag">
+                        &ltul&gt &lt/ul&gt<br>
+                    </h4>
+                    <p class="tag">
+                        Usads para criar listas não ordenadas, ou seja, não inúmera os elementos, apenas coloca
+                        marcadores.<br><br>
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <h4 class="titulo_tag">
+                        &ltli&gt &lt/li&gt<br>
+                    </h4>
+                    <p class="tag">
+                        É usada para definir cada item dentro de uma lista ordenada (ol), ou dentro de uma lista não
+                        ordena
+                        (ul). Tags de Lista são utilizadas na criação de menus para a página.<br><br>
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &lt!--<p class="texto_exemplo">Digite aqui seu comentário</p>--&gt<br>
+                    </div>
+                    <p class="tag">
+                        Utilizado para fazer um comentário no código. Bastante útil e recomendado para deixar nosso
+                        código
+                        mais
+                        explicativo, ajudando você a se localizar no código e facilitando a vida de quem tiver que fazer
+                        manutenção no código posteriormente. Tudo que for digitado no meio dos tracinhos não aparecerá
+                        na
+                        tela
+                        da página.<br><br>
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltinput type = “ <p class="parametro_exemplo">text</p>” &gt<br>
+                    </div>
+                    <p class="tag">
+                        Utilizado para captura informações do usuário. Por exemplo, quando você entra em um site e
+                        aparece
+                        aquela caixinha para digitar o email, senha, nome, data de nascimento, entre tantas outras
+                        coisas?!
+                        Aquelas caixinhas são tags do tipo &ltinput type = “ ” &gt. Dentro das aspas de type você vai
+                        escrever
+                        qual o tipo de informação você receberá. Pode ser text, email, submit, date, tel e
+                        passoword.<br><br>
+                    </p>
+                </div>
+            </section>
+
+            <section class="conteudo">
+                <p class="Paragrafo_Central">
+                    Tags para organizar a página em seções:observação (Se você escrever o código sem essas tags ele vai
+                    funcionar, mas não é uma boa prática
+                    porque deixa ele mais difícil de manipular quando for fazer alterações)<br><br>
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltheader&gt <p class="parametro_exemplo">&nbsp</p> &lt/header&gt<br>
+                    </div>
+                    <p class="tag">
+                        Essa é uma tag significa cabeçalho da página. Normalmente utilizamos ela para agrupar as tags
+                        que usadas para contruir
+                        nosso menu da página.
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltmain&gt <p class="parametro_exemplo">&nbsp</p> &lt/main&gt<br>
+                    </div>
+                    <p class="tag">
+                        Essa é uma tag serve para agrupar dentro dela as tag com o contúdo principal da página.
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltfooter&gt <p class="parametro_exemplo">&nbsp</p> &lt/footer&gt<br>
+                    </div>
+                    <p class="tag">
+                        Essa é uma tag é ultilizada para agrupar as tags usada para criar o radapé da página.
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltarticle&gt <p class="parametro_exemplo">&nbsp</p> &lt/article&gt<br>
+                    </div>
+                    <p class="tag">
+                        Essa é uma tag genérica, usamos ela para agrupar artigos da nossa página.
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltsection&gt <p class="parametro_exemplo">&nbsp</p> &lt/section&gt<br>
+                    </div>
+                    <p class="tag">
+                       Usamos essa tag para agrupar um conjunto de tags, separando cada grupo em seções.<br><br>
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltdiv&gt <p class="parametro_exemplo">&nbsp</p> &lt/div&gt<br>
+                    </div>
+                    <p class="tag">
+                        Antes de existir as tags header, main, footer, section e article, essa a div era usada para 
+                        organizar o código. Após declarar a tag div era dado uma classe ou um id para ela com o nome de header, main, footer, section e article.
+                        Era assim que
+                        se organizava o código. A tag div ainda é muito utilizada. Usamos ela quando as outras tags de organização não forem as melhores opções.
+                    </p>
+                </div>
+
+
+
+
+            </section>
+        </article>
+    </main>
+
+    <footer class="rodape">
+        <!--Rodapé-->
+        <div>
+            <h1 class="Titulo_OneZero">
+                Seven
+            </h1>
+        </div>
+        <div id="Descrição">
+            <div class="ContainerIcones">
+                <a href="https://www.linkedin.com/in/gabrielsilva17/">
+                    <img class="icones" src="../icones/linkedin.png" alt="">
+                </a>
+                <p>
+                    <a href="https://www.linkedin.com/in/gabrielsilva17/">Linkedin</a>
+                </p>
+            </div>
+
+            <div class="ContainerIcones">
+                <a href="https://github.com/GabryelSilvah">
+                    <img class="icones" src="../icones/github.png" alt="">
+                </a>
+                <p>
+                    <a href="https://github.com/GabryelSilvah">GitHub</a>
+                </p>
+            </div>
+
+            <div class="ContainerIcones">
+                <a href="mailto:dsjgabriel16@gmail.com">
+                    <img class="icones" src="../icones/o-email.png" alt="">
+                </a>
+                <p>
+                    <a href="mailto:dsjgabriel16@gmail.com">E-mail</a>
+                </p>
+            </div>
+        </div>
+        <p>
+            © Gabriel_Silva 2023 Seven
+        </p>
+    </footer>
+    <script src="../Assets/menu_hamburguer.js"></script>
+</body>
+
+</html>

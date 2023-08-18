@@ -11,14 +11,46 @@
 
 <body>
 
-   <!--MENU-->
-   <header>
-    <nav class="container_nav">
-        <div class="container_menu">
-            <div class="container_logo">
-                <a href="../Home.html"><img id="logo" src="../imagem/Logo_one_zero2.png" alt=""></a>
+    <!--MENU-->
+    <header>
+        <nav class="container_nav">
+            <div class="container_menu">
+                <div class="container_logo">
+                    <a href="../Home.html"><img id="logo" src="../imagem/Logo_one_zero2.png" alt=""></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="../Home.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Conquistas.html">
+                            Conquistas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Sobre.html">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="aba_atual">
+                        <a href="../Learning.html">
+                            Learning
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul>
+        </nav>
+
+        <!--nav menu mobile-->
+        <nav id="mobile">
+            <div id="btn">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="menu">
                 <li>
                     <a href="../Home.html">
                         Home
@@ -34,46 +66,14 @@
                         Sobre
                     </a>
                 </li>
-                <li  class="aba_atual">
+                <li class="aba_atual">
                     <a href="../Learning.html">
                         Learning
                     </a>
                 </li>
             </ul>
-        </div>
-    </nav>
-
-    <!--nav menu mobile-->
-    <nav id="mobile">
-        <div id="btn">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="../Home.html">
-                    Home
-                </a>
-            </li>
-            <li>
-                <a href="../Conquistas.html">
-                    Conquistas
-                </a>
-            </li>
-            <li>
-                <a href="../Sobre.html">
-                    Sobre
-                </a>
-            </li>
-            <li class="aba_atual">
-                <a href="../Learning.html">
-                    Learning
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
+        </nav>
+    </header>
 
 
     <main class="main">
@@ -104,29 +104,46 @@
             <p class="Paragrafo_Central">
                 Trazendo isso para a computação e utilizando outro exemplo, imagine que você está criando um sistema de
                 controle de notas dos alunos. Então você está utilizando estruturas condicionais e cria as seguintes
-                condições, se o aluno tirar nota igual ou maior que 5 está aprovado, senão, se ele tirar nota igual ou maior
+                condições, se o aluno tirar nota igual ou maior que 5 está aprovado, senão, se ele tirar nota igual ou
+                maior
                 que 3, mas menor que 5 está de recuperação, senão está reprovado.<br><br>
-
-                Em geral, nas linguagens de programação “se” é representado “if”, e “senão” é representado por “else”.
-                Para montar uma estrutura condicional primeiramente é preciso escrever if, depois escrever entre
-                parênteses a condição e por último entre chaves o que vai acontecer caso essa condição seja verdadeira.
-                <br><br>
-                Estrutura:<br>
-                If() {};<br>
-                else if () {};<br>
-                else {};<br>
-                <br><br>
-                Exemplo:<br>
-                Cria uma Variável para armazena a nota do aluno e depois cria a estrutura condicional.<br><br>
-
-                nota = 7;<br><br>
-
-                If(nota=>5) {está aprovado};<br>
-                else if (nota=>3) {está de recuperação};<br>
-                else{está reprovado};<br>
             </p>
 
+            <div class="container_img">
+                <img class="img_central" src="imagens_learning/estruturas_condicionais.png" alt="">
+            </div>
 
+            <p class="Paragrafo_Central">
+                Em geral, nas linguagens de programação “se” é representado “if”, e “senão” é representado por “else”.
+                Para montar uma estrutura condicional, primeiramente é preciso declarar a variável que
+                vai armazena nossa informação para posterimente ser testada. Após declarar a variável,
+                escreva if, depois escreva entre parênteses o teste lógico (se tal coisa for igual tal coisa, execute
+                a instrução abaixo), e por último, entre chaves {}, o que
+                vai acontecer caso essa condição seja verdadeira.
+                <br><br>
+            </p>
+
+            <p class="Paragrafo_Central_2">
+
+                Estrutura:<br>
+                If () {};<br>
+                else if () {};<br>
+                else {};<br><br>
+
+                Se você achar que é necessário apenas if e else, é válido.<br><br>
+                if (nota >= 5 ){<br>
+                    console.log('aprovado')<br>
+                }<br><br>
+                else {<br>
+                    console.log('reprovado')<br>
+                }<br><br>
+                Se você achar que é necessário apenas um if, também é válido.<br><br>
+                if (nota >= 5 ){<br>
+                    console.log('aprovado')<br>
+                }<br><br>
+
+                <br><br>
+            </p>
 
         </article>
     </main>

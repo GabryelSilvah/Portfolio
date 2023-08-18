@@ -142,14 +142,18 @@ body {
 
 /*main*/
 .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 100px 0px;
+    gap: 20px;
 }
 
 .Container_Article {
     display: flex;
     flex-direction: column;
-    margin: 10px 12%;
-    text-align: justify;
+    margin: 10px 4%;
     gap: 10px;
     background-image: -webkit-linear-gradient(180deg, rgb(0, 206, 175), rgb(0, 159, 174));
     border-radius: 25px;
@@ -171,12 +175,25 @@ body {
 
 .Paragrafo_Central {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 1.5rem;
+    color: #ffffff;
+    font-size: max(30px, 0, 2vw);
+}
+.Paragrafo_Central_2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
     line-height: 1.5rem;
     color: #ffffff;
     font-size: max(30px, 0, 2vw);
 }
 
 
+
+.img_central {
+    width: 70%;
+    border-radius: 15px;
+}
 
 
 /*Footer*/
