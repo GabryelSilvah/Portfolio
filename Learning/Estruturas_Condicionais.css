@@ -278,6 +278,13 @@ body {
         text-align: end;
     }
 }
+/*tags*/
+@media screen and (max-width:726px) {
+    .img_central {
+        width: 100%;
+        border-radius: 15px;
+    }
+}
 
 /*footer Midia query*/
 @media screen and (max-width:726px) {

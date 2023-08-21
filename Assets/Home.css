@@ -512,7 +512,11 @@ body {
     }
 
     .ImagemInicial {
-        margin-top: 20px;
+        margin-top: 10px;
+        width: 90%;
+        max-height: 147px;
+        border-radius: 10px;
+        object-fit: cover;
     }
 }
 

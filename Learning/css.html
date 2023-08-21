@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+</head>
+
+<body>
+
+    <!--MENU-->
+    <header>
+        <nav class="container_nav">
+            <div class="container_menu">
+                <div class="container_logo">
+                    <a href="../Home.html"><img id="logo" src="../imagem/Logo_one_zero2.png" alt=""></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="../Home.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Conquistas.html">
+                            Conquistas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Sobre.html">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="aba_atual">
+                        <a href="../Learning.html">
+                            Learning
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--nav menu mobile-->
+        <nav id="mobile">
+            <div id="btn">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="menu">
+                <li>
+                    <a href="../Home.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="../Conquistas.html">
+                        Conquistas
+                    </a>
+                </li>
+                <li>
+                    <a href="../Sobre.html">
+                        Sobre
+                    </a>
+                </li>
+                <li class="aba_atual">
+                    <a href="../Learning.html">
+                        Learning
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="container_conteudo">
+            <section class="conteudo">
+
+                <h1 class="Titulo_Central">
+                    Css
+                </h1>
+                <h4 class="Data_Atualizaçao">
+                    Atualizado: 19/07/2023
+                </h4>
+                <p class="Paragrafo_Central">
+                    Css ( Cascading Style Sheets ), é uma linguagem de estilização para página web. É com o css que as
+                    páginas web ganham vida. Através dele podemos mudar a cor do texto, a fonte, a cor de funda da
+                    página, podemos aumentar ou diminuir o tamanho da letra, da imagem ou do vídeo. Podemos posicionar
+                    cada elementar da página em lugares diferentes, podemos criar algumas animações. As possibilidades
+                    são muitas, tudo vai depender da sua criatividade.<br><br> Para começarmos a fazer essas alterações
+                    na nossa
+                    página web é necessário dois procedimentos. Primeiro, você deve informar para o
+                    arquivo html onde estão as suas estilizações em css. Para fazer isso é muito simples, basta você ir
+                    no seu arquivo html, na parte superior, onde fica a tag &lthed&gt &lt/hed&gt e digitar a tag &ltlink
+                    rel="stylesheet" href=" digite aqui o nome do seu arquivo css"&lt/ dentro de hed. Em href, dentro
+                    das aspas,
+                    digite o nome que você deu ao seu arquivo css e coloque o .css no final (exemplo.css).
+                </p>
+
+                <div>
+                    <img class="img_central" src="imagens_learning/link_css.png" alt="">
+                </div><br><br>
+
+                <p class="Paragrafo_Central">
+                    Segundo passo, você sabe o que é classe e id? Se você já souber, pode pular esse tópico. Classes e
+                    id são os identificadores que podemos criar para cada tag, podemos dizer que é o cpf da tag. Para
+                    criar uma classe, basta você digitar class = "exemplo", dentro do início de uma tag, e entre aspas
+                    você digita um nome para essa classe. Para criar id,
+                    basta escrever id no lugar class. <br> Veja o exemplo na imagem abaixo.
+                </p>
+
+                <div>
+                    <img class="img_central" src="imagens_learning/class_css.png" alt="">
+                </div><br><br>
+
+                <p class="Paragrafo_Central">
+                    Com sua classe criada, basta ir ao arquivo css e começar a estilizar a classe. Sempre que chamamos
+                    classes no css, é necessário digitar um ponto antes e depois você escreve o nome da classe. Já o id,
+                    primeiro você digita o símbolo de jogo da velha e depois o nome do id. Veja o exemplo na imagem
+                    abaixo.
+                </p>
+
+                <div>
+                    <img class="img_central" src="imagens_learning/chama_classe_css.png" alt="">
+                </div><br><br>
+
+                <p class="Paragrafo_Central">
+                    Na imagem acima é possível observar que foi adicionado uma propriedade de estilização, a propriedade
+                    color. Essa propriedade muda a cor da letra. É possível observar na imagem que essa propriedade foi
+                    adicionada entre chaves, {color:green}. A estrutura básica do css é exatamente essa. Coloca o nome
+                    da classe e
+                    digita as propriedades de estilização dentro das chaves. Simples e objetivo.
+                </p>
+
+            </section>
+
+
+            <!--Significado das Propriedades-->
+
+            <section class="conteudo">
+                <p class="Paragrafo_Central">
+                    Propriedades e suas utilidades:<br><br>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        Color:&nbsp &nbsp ;
+                    </div>
+                    <p class="tag">
+                        Muda a cor do texto.
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        font-family:&nbsp &nbsp ;
+                    </div>
+                    <p class="tag">
+                        Estabelece uma lista de fontes para serem usadas nos textos das páginas.
+                    </p>
+                </div>
+
+
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        font-size:&nbsp &nbsp ;
+                    </div>
+                    <p class="tag">
+                        Define o tamanho da letra. Você pode altera o tamanho utilizando, px, rem e % (font-size:
+                        20px;).
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        font-weight:&nbsp &nbsp ;
+                    </div>
+                    <p class="tag">
+                        Altera a espessura da fonte. Seus valores são, de 200, 600, 900. (font-weight: 900;).
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <h4 class="titulo_tag">
+                        background-color:&nbsp &nbsp ;
+                    </h4>
+                    <p class="tag">
+                        Altera a cor de fundo.
+                    </p>
+                </div>
+
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        border-radius: &nbsp &nbsp ;
+                    </div>
+                    <p class="tag">
+                        Arredonda as bordas do elemento.
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        margin: &nbsp &nbsp ;
+                    </div>
+                    <p class="tag">
+                        Coloca margem na parte externa do elemento.
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <h4 class="titulo_tag">
+                        padding: &nbsp &nbsp ;
+                    </h4>
+                    <p class="tag">
+                        Coloca margem na parte interna do elemento.
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <h4 class="titulo_tag">
+                        border: &nbsp &nbsp ;
+                    </h4>
+                    <p class="tag">
+                        Coloca borda no elemento.
+                    </p>
+                </div>
+
+            </section>
+
+            <section class="conteudo">
+                <p class="Paragrafo_Central">
+                    A parte alguns têm dificuldade no início, é a parte de centralizar elementos na página,
+                    entretanto não é nada complicado fazer isso. Essa dificuldade é porque não
+                    entenderam como utiliza algumas das propriedades que será mostrada logo abaixo.
+                </p><br><br>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        display: flex;
+                    </div>
+                    <p class="tag">
+                        Por padrão, quando adicionamos elementos no html, como textos, imagens, entre outros, eles são
+                        adicionados no sentido vertical, um abaixo do outro. O display na opção:flex organiza nossos
+                        elementos no sentido horizontal.
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        justify-content: &nbsp &nbsp ;
+                    </div>
+                    <p class="tag">
+                        Quando adicionamos o display:flex ele nos possibilita utilizar outras propriedades que antes não
+                        estavam disponíveis. O justify-content é uma dessas. Ele serve para alinhamos o elemento em
+                        partes diferentes da página. Se escolhermos a opção center estamos dizendo que ele será alinhado
+                        no centro horizontal, se escolhermos start ele alinha no início horizontal, se escolher end ele
+                        alinha no final horizontal.
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        align-items: &nbsp &nbsp ;
+                    </div>
+                    <p class="tag">
+                        O align-items é mais uma dessas propriedades que só tem como usar após colocar o
+                        display: flex. Se escolhermos a opção center estamos dizendo que ele será alinhado
+                        no centro vertical, se escolhermos start ele alinha no início vertical, se escolher end ele
+                        alinha no final vertical.
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        flex-direction: &nbsp &nbsp ;
+                    </div>
+                    <p class="tag">
+                        O flex-direction também é mais uma dessas propriedades que só tem como usar após
+                        colocar o
+                        display: flex. Se quisermos alinhar um elemento, a melhor maneira é utilizar o display:flex.
+                        Mas,
+                        Quando usamos display: flex, ele automaticamente coloca os elementos na horizontal, mas às vezes
+                        queremos que ele continue na vertical porque só usamos o display: flex para poder utilizar as
+                        outras propriedades, como justify-content. É para isso que existe o flex-direction. Ele muda a
+                        direção do flex. Uma de suas opções é o column que deixa o conteúdo na vertical novamente sem
+                        precisar apagar a propriedade do display:flex.
+                    </p>
+
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        gap: &nbsp &nbsp ;
+                    </div>
+                    <p class="tag">
+                        O gap é utilizado para dar espaçamento entre os elementos. Ele só pode ser usado após declarar o
+                        display:flex.
+                    </p>
+                </div>
+                <section class="conteudo">
+                    <p class="Paragrafo_Central">
+                        Acho que deu de perceber que são conceitos bem simples e fáceis de entender. Se você não
+                        entendeu com a leitura, calma que quando você escrever o código, verá toda a mágica
+                        acontecendo, vai fazer total sentindo.
+                    </p>
+                    <p class="Paragrafo_Central">
+                        Muito bem, para utilizar o display: flex, você tem que pensar em qual elemento você quer alinhar
+                        na tela. O display:flex não é aplicado diretamente na classe do elemento que você quer alinhar,
+                        mas sim no que costumam chamar de pai do elemento. Esse pai do elemento é a tag que está
+                        guardando nosso elemento filho. <br>Observe a imagem abaixo.
+                    </p>
+
+                    <div>
+                        <img class="img_central" src="imagens_learning/explicacao_display_flex.png" alt="">
+                    </div><br><br>
+                    <div>
+                        <img class="img_central" src="imagens_learning/desenho_display_flex.png" alt="">
+                    </div><br><br>
+                    <p class="Paragrafo_Central">
+                        Como pode ser observado, eu queria alinhar minha imagem, que tem o nome da classe (exemplo).
+                        Para fazer isso eu coloquei ela dentro de outra tag, porque o display: flex só funciona se
+                        for adicionado na classe "pai", que nessa caso tem o nome de (Container_exemplo). <br><br>
+
+
+                        Resumindo,
+                        para alinhar o elemento "filho" eu tenho que aplicar o display:flex no elemento "pai". É uma
+                        hierarquia, onde você adiciona o display flex em quem tá em cima, mas o efeito acontece em quem
+                        tá em baixo.
+
+                        <br><br>
+                    <p class="Paragrafo_Central">
+                        As primeiras propriedades citas, antes do display: flex não precisam seguir essa regra. Você
+                        pode adicionar elas diretamente no elemento que você deseja estilizar.
+                    </p>
+
+
+                </section>
+
+
+            </section>
+        </article>
+    </main>
+
+    <footer class="rodape">
+        <!--Rodapé-->
+        <div>
+            <h1 class="Titulo_OneZero">
+                Seven
+            </h1>
+        </div>
+        <div id="Descrição">
+            <div class="ContainerIcones">
+                <a href="https://www.linkedin.com/in/gabrielsilva17/">
+                    <img class="icones" src="../icones/linkedin.png" alt="">
+                </a>
+                <p>
+                    <a href="https://www.linkedin.com/in/gabrielsilva17/">Linkedin</a>
+                </p>
+            </div>
+
+            <div class="ContainerIcones">
+                <a href="https://github.com/GabryelSilvah">
+                    <img class="icones" src="../icones/github.png" alt="">
+                </a>
+                <p>
+                    <a href="https://github.com/GabryelSilvah">GitHub</a>
+                </p>
+            </div>
+
+            <div class="ContainerIcones">
+                <a href="mailto:dsjgabriel16@gmail.com">
+                    <img class="icones" src="../icones/o-email.png" alt="">
+                </a>
+                <p>
+                    <a href="mailto:dsjgabriel16@gmail.com">E-mail</a>
+                </p>
+            </div>
+        </div>
+        <p>
+            © Gabriel_Silva 2023 Seven
+        </p>
+    </footer>
+    <script src="../Assets/menu_hamburguer.js"></script>
+</body>
+
+</html>

@@ -171,7 +171,16 @@ body {
 }
 
 /*objetos principais*/
+.Container_Objeto h5{
+    color: #ffffff;
+}
+.Container_Objeto h5{
+    color: #ffffff;
+}
 .Container_Objeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 200px;
     height: 300px;
     border-radius: 20px;
@@ -202,9 +211,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 2px 5px;
-    font-size: max(30px, 0, 2vw);
+    font-size: max(30px, 0, 1.8vw);
     color: #ffffff;
     font-weight: 560;
+    word-break:break-all;
 }
 
 
