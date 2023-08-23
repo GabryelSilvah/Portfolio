@@ -291,9 +291,11 @@
                         &ltlabel&gt <p class="parametro_exemplo">&nbsp</p> &lt/label&gt<br>
                     </div>
                     <p class="tag">
-                         Como foi explicado acima, input é 
-                        uma tag de entrada de dados. Já a label é uma descrição. Normalmente quando você entra em uma pagina de login, tem o campo para preencher 
-                        o email ou senha, ao lado do campo tem a palavra email ou senha. Então label é essa descrição que acompanha o campo de preenchimento (input). 
+                        Como foi explicado acima, input é
+                        uma tag de entrada de dados. Já a label é uma descrição. Normalmente quando você entra em uma
+                        pagina de login, tem o campo para preencher
+                        o email ou senha, ao lado do campo tem a palavra email ou senha. Então label é essa descrição
+                        que acompanha o campo de preenchimento (input).
                     </p>
                 </div>
 
@@ -302,7 +304,8 @@
                         &ltform&gt <p class="parametro_exemplo">&nbsp</p> &lt/form&gt<br>
                     </div>
                     <p class="tag">
-                       Essa é uma tag para armazena nosso formulário. As tags input e label deve ser delcaradas entre a tag de abertura e fechamento do form.
+                        Essa é uma tag para armazena nosso formulário. As tags input e label deve ser delcaradas entre a
+                        tag de abertura e fechamento do form.
                     </p>
                 </div>
 
@@ -311,7 +314,19 @@
                         &ltbutton&gt <p class="parametro_exemplo">&nbsp</p> &lt/button&gt<br>
                     </div>
                     <p class="tag">
-                       Adiciona um botão na página. Você pode digitar entre as tags um nome para o botão, exemplo (click aqui ou enviar).
+                        Adiciona um botão na página. Você pode digitar entre as tags um nome para o botão, exemplo
+                        (click aqui ou enviar).
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        &ltlink rel="<p class="parametro_exemplo">stylesheet</p>" href="&nbsp "&gt  <br>
+                    </div>
+                    <p class="tag">
+                     Para estilizar sua página com o css, primeiramente é preciso vincular o css com o Html. Isso pode ser feito através dessa tag 
+                     link. Essa tag deve ser declarada dentro da tag head, que fica no topo da página. Em href, dentro das aspas, digite o nome do 
+                     seu arquivo css criado.
                     </p>
                 </div>
             </section>
@@ -324,15 +339,16 @@
                 <p class="Paragrafo_Central">
                     Tags para organizar a página em seções:observação (Se você escrever o código sem essas tags ele vai
                     funcionar, mas não é uma boa prática
-                    porque deixa ele mais difícil de manipular quando for fazer alterações)<br><br>
+                    porque deixa ele mais difícil de manipular quando for fazer alterações)</p><br><br>
                 <div class="container_tags">
                     <div class="titulo_tag">
                         &ltheader&gt <p class="parametro_exemplo">&nbsp</p> &lt/header&gt<br>
                     </div>
                     <p class="tag">
-                        Essa é uma tag que significa cabeçalho da página. Essa é uma tag ultilizada para agrupar outras tags. Nesse caso, as que 
+                        Essa é uma tag que significa cabeçalho da página. Essa é uma tag ultilizada para agrupar outras
+                        tags. Nesse caso, as que
                         foram usadas para criar o cabeçalho da página.
-                         Normalmente utilizamos ela para agrupar as tags
+                        Normalmente utilizamos ela para agrupar as tags
                         que foram usadas para contruir
                         nosso menu da página.
                     </p>
@@ -343,7 +359,8 @@
                         &ltmain&gt <p class="parametro_exemplo">&nbsp</p> &lt/main&gt<br>
                     </div>
                     <p class="tag">
-                        Essa é uma tag ultilizada para agrupar outras tags. Nesse caso, as que foram usadas para criar o conteúdo principal da página.
+                        Essa é uma tag ultilizada para agrupar outras tags. Nesse caso, as que foram usadas para criar o
+                        conteúdo principal da página.
                     </p>
                 </div>
 
@@ -352,7 +369,8 @@
                         &ltfooter&gt <p class="parametro_exemplo">&nbsp</p> &lt/footer&gt<br>
                     </div>
                     <p class="tag">
-                        Essa é uma tag ultilizada para agrupar outras tags. Nesse caso, as que foram usadas para criar o radapé da página.
+                        Essa é uma tag ultilizada para agrupar outras tags. Nesse caso, as que foram usadas para criar o
+                        radapé da página.
                     </p>
                 </div>
 
@@ -370,7 +388,7 @@
                         &ltsection&gt <p class="parametro_exemplo">&nbsp</p> &lt/section&gt<br>
                     </div>
                     <p class="tag">
-                       Usamos essa tag para agrupar um conjunto de tags, separando cada grupo em seções.
+                        Usamos essa tag para agrupar um conjunto de tags, separando cada grupo em seções.
                     </p>
                 </div>
 
@@ -379,15 +397,54 @@
                         &ltdiv&gt <p class="parametro_exemplo">&nbsp</p> &lt/div&gt<br>
                     </div>
                     <p class="tag">
-                        Antes de existir as tags header, main, footer, section e article, a div era usada para 
-                        organizar o código. Após declarar a tag div era dado uma classe ou um id para ela com o nome de header, main, footer, section e article.
+                        Antes de existir as tags header, main, footer, section e article, a div era usada para
+                        organizar o código. Após declarar a tag div era dado uma classe ou um id para ela com o nome de
+                        header, main, footer, section e article.
                         Era assim que
-                        se organizava o código. A tag div ainda é muito utilizada. Usamos ela quando as outras tags de organização não são as melhores opções.
+                        se organizava o código. A tag div ainda é muito utilizada. Usamos ela quando as outras tags de
+                        organização não são as melhores opções.
                     </p>
                 </div>
 
-      
+               
+
+
             </section>
+
+
+            <section class="conteudo">
+                <p class="Paragrafo_Central">
+                    Atributos:
+                </p>
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                        class = "<p class="parametro_exemplo">nome_da_classe</p>"
+                    </div>
+                    <p class="tag">
+                        É usada para criar um identificador (identidade) para algum elemento dentro do html. Através
+                        dessa identidade podemos
+                        estilizar um elemento no css. Para chamar uma classe no css basta digitar um ponto (.) e depois
+                        digitar o nome da classe
+                        que você deu ao elemento no html.
+                    </p>
+                    <img class="img_central" src="./imagens_learning/class.png" alt="">
+                </div>
+
+                <div class="container_tags">
+                    <div class="titulo_tag">
+                       id = "<p class="parametro_exemplo">nome_do_id</p>"
+                    </div>
+                    <p class="tag">
+                       O id é quase a mesma coisa que a class, com uma duas únicas diferença. A primeira, ele é usado quando o elemento não vai se 
+                       repetir 
+                       em nenhum outro lugar do código. Equanto a classe usamos quando teremos varios elementos do mesmo tipo quem receberam a mesma 
+                       configuração de estilização no css. A segunda diferença é que para chamar um id no css utilizamos o simbolo de jogo da velha (#)
+                       seguido do nome que demos para o id no html.
+                    </p>
+                    <img class="img_central" src="./imagens_learning/id.png" alt="">
+                </div>
+            </section>
+
         </article>
     </main>
 
