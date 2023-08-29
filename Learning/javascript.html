@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="javascript.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+</head>
+
+<body>
+
+    <!--MENU-->
+    <header>
+        <nav class="container_nav">
+            <div class="container_menu">
+                <div class="container_logo">
+                    <a href="../Home.html"><img id="logo" src="../imagem/Logo_one_zero2.png" alt=""></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="../Home.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Conquistas.html">
+                            Conquistas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Sobre.html">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="aba_atual">
+                        <a href="../Learning.html">
+                            Learning
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--nav menu mobile-->
+        <nav id="mobile">
+            <div id="btn">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="menu">
+                <li>
+                    <a href="../Home.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="../Conquistas.html">
+                        Conquistas
+                    </a>
+                </li>
+                <li>
+                    <a href="../Sobre.html">
+                        Sobre
+                    </a>
+                </li>
+                <li class="aba_atual">
+                    <a href="../Learning.html">
+                        Learning
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="container_conteudo">
+            <section class="conteudo">
+
+                <h1 class="Titulo_Central">
+                    JavaScript
+                </h1>
+                <h4 class="Data_Atualizaçao">
+                    Atualizado: 24/08/2023
+                </h4>
+                <p class="Paragrafo_Central">
+                    JavaScript é uma linguagem de programação de alto nível, isso significa que ela tem a sintaxe mais
+                    amigavel e de fácil entedimento para
+                    humanos. JavaScript é mais voltada para o desenvolvimento web. Significa que ela é uma liguagem de
+                    front-end usada para criar interatividade
+                    nas páginas web, tendo assim uma página mais dinamica e interativa.
+                    Mas, JavaScript também pode ser usada no back-end, isso graças ao node js. <br><br>
+
+                    O node js é um ambiente de execução de códigos
+                    que funciona no lado servidor. Resumidamente, com JavaScript é possivel criar uma aplicação
+                    completa, front-end e back-end, com apenas uma
+                    liguagem de programação. Apesar de ter nomes parecidos, JavaScript e Java são liguagens de
+                    programação diferentes.
+                </p>
+
+                <div>
+                    <img class="img_central" src="imagens_learning/html.png" alt="">
+                </div>
+
+                <p class="Paragrafo_Central">
+                    Antes de iniciar em JavaScript é importante que você conheça os fundamentos de programação.
+                    Fundamentos como, algoritmos,
+                    lógica de programação, variáveis, funções, estrutura condicional (if e else) e estruturas de
+                    repetição. Eu, Gabriel, recomendo
+                    que ao mesmo tempo em que você vai estudando esses fundamentos, você também vai colocando em pratica
+                    no JavaScript os fundamentos
+                    aprendidos.<br><br>
+
+                    Por exemplo, se você está estudando o que é variavel, já tenta aplicar o conceito no JavaScript.
+                    Fazendo isso, você vai sair da ideia
+                    abstrata e passa a ter a percepção concreta do que se trata aquele fundamento e ainda vai aprender
+                    como utiliza-la.
+                </p>
+                <div>
+                    <img class="img_central" src="imagens_learning/html_img.png" alt="">
+                </div>
+
+            </section>
+
+            <section class="conteudo">
+                <p class="Paragrafo_Central">
+                    Declarar váriaveis em JavaScript:<br><br>
+                </p>
+                <p class="Paragrafo_Central">
+                    Para declara variáveis em JavaScript, primeiro temos que definir o tipo de váreavel que ela vai ser.
+                    No JavaScript existe dois tipos,
+                    const e let. </p>
+
+                <div class="container_tags">
+                    <p class="titulo_tag">
+                        const
+                    </p>
+
+                    <p class="tag">
+                        Variáveis que são declaradas como const significa que o dado(informação) guardado não poderá ser
+                        alterado. Ele continuará
+                        constante.<br><br>
+                    </p>
+                </div>
+
+                <div class="container_tags">
+                    <p class="titulo_tag">
+                        let
+                    </p>
+
+                    <p class="tag">
+                        Variáveis que são declaradas como let podem ter os dados alterados no decorrer do código.
+                        constante.<br><br>
+                    </p>
+                </div>
+
+                <div>
+                    <img class="img_central" src="./imagens_learning/variavel.png" alt="">
+                </div>
+                <p class="Paragrafo_Central">
+                    Como pode ser pecebido na imagem, foram criadas 2 varáveis, um do tipo const e a outra do tipo let.
+                    A a informação guardada na variavel do tipo let, como dito anteriomente, pode ser alterada. Então
+                    primeiro
+                    eu guardei o valor 9 e usei o comando console.log para exibir o valor guardado na tela. Depois
+                    digitei o
+                    nome da variável novamente e guardei uma informação diferente, o número 10 e exibi na tela
+                    novamente. A nova
+                    informação substituiu a antiga. Antes a nota tirada era 9 e após a alteração ficou 10.
+                </p> <br><br>
+
+                <p class="Paragrafo_Central">
+                    Toda vez que você precisar guarda uma informação você usará variaveis. Toda vez que você precisar
+                    guardar uma informação que poderá ser mudada no decorrer do código, você utilizará a variavel do
+                    tipo let.
+                    E toda vez que você precisar guarda uma informação não será ou que não poderá de jeito nenhum ser
+                    mudada,
+                    você utilizará const.
+                </p>
+
+                <p class="Paragrafo_Central">
+                    Abaixo tem mais um exemplo de como usar variáveis. O contexto é, você precisa comprar algumas
+                    canetas.
+                    Cada caneta custa R$ 3,0 reais, e você comprará um total de 5 canetas.
+                </p>
+                <div>
+                    <img class="img_central" src="./imagens_learning/canetas.png" alt="">
+                </div>
+
+                <p class="Paragrafo_Central">
+                    Como podemos observar na imagem, foram criadas 3 variáveis. A primeira armazena o preço de cada
+                    caneta "R$ 3,0",
+                    já a segunda armazena a quantidade de canetas que serão compradas "5". Por utimo, a terceira
+                    armazena o
+                    preço total que custará as canetas.<br><br>
+
+                    Se você olha bem, perceberá que nenhum valor foi guardado na terceira variável, valor_total, isso
+                    porque
+                    ela foi criada para guarda o valor da multiplicação do preço pela quantidade, que só poderá ser
+                    obtido
+                    após o preço e a quantidade das canetas serem informado. O preço de cada unidade de caneta será
+                    fixo, por isso
+                    utilizamos a variavel do tipo const para armazenar. Já a quantidade pode variar, então ela é do tipo
+                    let.
+                    <br><br>
+
+                    Após conseguir a informação da quantidade de canetas que será comprada, basta digitar a variável,
+                    valor_total,
+                    com o sinal de igual " = ", que signica no JavaScript "recebe". Na frente do sinal digita a variavel
+                    do preço multiplicada
+                    pela variavel da quantidade. Pronto, agora basta digitar dentro de console,log a variavel que
+                    armazenou o valor da multiplicação,
+                    nesse caso, valor_total.
+                </p>
+            </section>
+        </article>
+    </main>
+
+    <footer class="rodape">
+        <!--Rodapé-->
+        <div>
+            <h1 class="Titulo_OneZero">
+                Seven
+            </h1>
+        </div>
+        <div id="Descrição">
+            <div class="ContainerIcones">
+                <a href="https://www.linkedin.com/in/gabrielsilva17/">
+                    <img class="icones" src="../icones/linkedin.png" alt="">
+                </a>
+                <p>
+                    <a href="https://www.linkedin.com/in/gabrielsilva17/">Linkedin</a>
+                </p>
+            </div>
+
+            <div class="ContainerIcones">
+                <a href="https://github.com/GabryelSilvah">
+                    <img class="icones" src="../icones/github.png" alt="">
+                </a>
+                <p>
+                    <a href="https://github.com/GabryelSilvah">GitHub</a>
+                </p>
+            </div>
+
+            <div class="ContainerIcones">
+                <a href="mailto:dsjgabriel16@gmail.com">
+                    <img class="icones" src="../icones/o-email.png" alt="">
+                </a>
+                <p>
+                    <a href="mailto:dsjgabriel16@gmail.com">E-mail</a>
+                </p>
+            </div>
+        </div>
+        <p>
+            © Gabriel_Silva 2023 Seven
+        </p>
+    </footer>
+    <script src="../Assets/menu_hamburguer.js"></script>
+</body>
+
+</html>
