@@ -464,6 +464,7 @@ body {
     color: aliceblue;
     height: 150px;
     background-image: -webkit-linear-gradient(right, rgb(0, 85, 170), rgb(0, 27, 52));
+    margin-top: 300px;
     z-index: 999;
 }
 
@@ -630,33 +631,21 @@ body {
     }
 
     .texto-Objeto {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 0.5rem;
         height: 200px;
         width: 142px;
-        border-radius: 20px;
-        position: absolute;
         top: 13px;
-        opacity: 0%;
         left: 80px;
     }
 
     .texto-Objeto2 {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 0.5rem;
-        background-color: #052346;
-        border: 4px solid #167bf7;
-        color: rgb(255, 255, 255);
         border-radius: 20px;
         padding: 10px;
         height: 200px;
         width: 142px;
-        border-radius: 20px;
-        position: absolute;
         top: 13px;
         left: -153px;
-        opacity: 0%;
-        transition: 0.5s;
     }
 
     .imgObjeto:hover~.texto-Objeto2 {
