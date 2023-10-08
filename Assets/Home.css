@@ -1,145 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
-body {
-    background-image: -webkit-linear-gradient(120deg, rgb(244, 243, 243), rgb(255, 255, 255));
-}
-
-/*Inicio do Menu*/
-.container_nav {
-    display: flex;
-    justify-content: center;
-
-}
-
-.container_logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-#logo {
-    width: 250px;
-    margin-right: 15px;
-}
-
-.container_menu {
-    background-image: -webkit-linear-gradient(right, rgb(207, 217, 227), rgb(222, 231, 235));
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    height: 60px;
-    padding: 0px 10px;
-    width: 96%;
-    border-radius: 10px;
-    position: fixed;
-    z-index: 997;
-}
-
-.container_menu ul {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 10px;
-    height: 100%;
-    list-style-type: none;
-}
-
-.container_menu ul a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffffff;
-    font-weight: 600;
-    background-color: #656667;
-    padding: 15px;
-    border-radius: 8px;
-    text-decoration: none;
-
-}
-
-.container_menu ul a:hover {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-.container_menu ul .aba_atual a {
-    background-color: rgb(255, 255, 255);
-    color: #000000;
-}
-
-/*menu mobile*/
-#mobile {
-    display: flex;
-    justify-content: end;
-    height: 60px;
-    display: none;
-}
-
-#menu {
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    align-items: center;
-    background-color: #232b33;
-    width: 60vw;
-    gap: 10px;
-    height: 100vh;
-    padding-top: 30px;
-    z-index: 998;
-    display: none;
-    position: fixed
-}
-
-#menu li {
-    background-image: -webkit-linear-gradient(140deg, #656667, #656667);
-    border: 4px solid rgb(247, 247, 247);
-    width: 90%;
-    text-align: center;
-    border-radius: 10px;
-    margin-top: 30px;
-    list-style-type: none;
-
-}
-
-#menu a {
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ffffff;
-    flex-grow: 1;
-    text-decoration: none;
-
-}
-
-#btn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: -webkit-linear-gradient(140deg, rgb(8, 8, 8), rgb(24, 24, 24));
-    border: 2px solid rgb(239, 239, 239);
-    gap: 5px;
-    width: 45px;
-    height: 45px;
-    border-radius: 30%;
-    margin: 7px 20px 0 0;
-    position: fixed;
-    z-index: 999;
-}
-
-.line {
-    width: 20px;
-    height: 2px;
-    background-color: #ffffff;
-}
-
-
 /*Img central*/
 .container_Imagem_Inicial {
     display: flex;
@@ -169,7 +27,8 @@ body {
     text-align: center;
     flex-wrap: wrap;
     width: 90%;
-    background-image: -webkit-linear-gradient(100deg, #095e97, #0098cb);
+    background-image: linear-gradient(140deg, rgb(2, 68, 167), rgb(0, 116, 194));
+    border: 4px solid #d3d3d3;
     border-radius: 10px;
     padding: 1%;
     gap: 60px;
@@ -184,7 +43,7 @@ body {
     width: 200px;
     border-radius: 10px;
     object-fit: cover;
-    box-shadow: 30px 30px 80px black;
+    box-shadow: 4px 10px 120px rgb(0, 238, 255);
     transition: 0.5s;
 }
 
@@ -207,12 +66,13 @@ body {
 
 /*Sobre Mim*/
 .containerSobreMim {
-    margin: 100px 35px;
+    margin: 100px 70px;
     /*background-image: -webkit-linear-gradient(100deg, #099789, #00cb84);*/
-    background-image: -webkit-linear-gradient(100deg, #095e97, #0098cb);
+    background-image: linear-gradient(140deg, rgb(2, 68, 167), rgb(0, 116, 194));
     border: 4px solid #d3d3d3;
     border-radius: 15px;
     padding: 10px 0px;
+    box-shadow: 4px 10px 80px rgb(0, 217, 255);
 
 }
 
@@ -237,6 +97,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+
 }
 
 .TituloCentralizado {
@@ -266,10 +127,11 @@ body {
     color: rgb(101, 255, 199);
     text-align: center;
 }
-.gif{
+
+.gif {
     height: 80px;
     border-radius: 10px;
-    
+
 }
 
 .container_obejeto .TituloCentralizado {
@@ -426,6 +288,7 @@ body {
     width: 300px;
     background-image: -webkit-linear-gradient(140deg, rgb(0, 170, 255), rgb(0, 159, 174));
     border: 4px solid rgb(0, 208, 255);
+    box-shadow: 4px 10px 80px rgb(0, 217, 255);
 
 }
 
@@ -443,85 +306,6 @@ body {
 }
 
 
-
-
-
-
-/*Inicio Rodapé*/
-.Titulo_OneZero {
-    font-size: 1.5em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.rodape {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    gap: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    color: aliceblue;
-    height: 150px;
-    background-image: -webkit-linear-gradient(right, rgb(0, 85, 170), rgb(0, 27, 52));
-    margin-top: 300px;
-    z-index: 999;
-}
-
-.rodape #Descrição {
-    display: flex;
-    gap: 10px;
-    margin: 0px 30px;
-
-}
-
-.rodape .icones {
-    width: 40px;
-    height: 40px;
-}
-
-.rodape .ContainerIcones {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.rodape a {
-    text-decoration: none;
-    color: white;
-}
-
-
-.container_linkedin{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-/*menu*/
-@media screen and (max-width:726px) {
-    #mobile {
-        display: flex;
-    }
-
-    .container_menu ul {
-        display: none;
-    }
-
-    #mobile.active #menu {
-        display: flex;
-    }
-
-    .ImagemInicial {
-        margin-top: 10px;
-        width: 90%;
-        max-height: 500px;
-        border-radius: 10px;
-        object-fit: cover;
-    }
-}
-
 /*Midia query 4 slots de trabalhos*/
 @media screen and (max-width:726px) {
     .img_grade {
@@ -533,7 +317,8 @@ body {
     .img_grade:hover {
         scale: none;
     }
-    .container_grade{
+
+    .container_grade {
         padding: 3%;
     }
 }
@@ -679,17 +464,5 @@ body {
 
     .paragrafoSkills {
         font-size: 0.7rem;
-    }
-}
-
-/*Midia query footer*/
-@media screen and (max-width:726px) {
-    .rodape {
-        height: 150px;
-    }
-
-    .rodape .icones {
-        width: 20px;
-        height: 20px;
     }
 }
