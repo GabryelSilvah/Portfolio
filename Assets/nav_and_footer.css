@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(../test.jpg);
+    background-image: url(../imagem/desktop.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
@@ -199,7 +199,7 @@ body {
 /*menu*/
 @media screen and (max-width:726px) {
     body {
-        background-image: url(../phone.jpg);
+        background-image: url(../imagem/phone.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: bottom;
