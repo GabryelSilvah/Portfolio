@@ -201,8 +201,9 @@ body {
     body {
         background-image: url(../imagem/phone.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 100vh;
         background-position: bottom;
+        background-position-y: -900px;
         background-attachment: fixed;
     }
 
